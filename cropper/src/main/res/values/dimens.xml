@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 基准文件：当前是密度比为 1.5 的标注稿，其他屏幕密度，可以按比例根据当前文件自动生成 -->
+<resources>
+
+    <!-- 字体大小，不必按场景设置名称，直接根据字号大小命名即可 -->
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_21">21sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+
+    <dimen name="size_3">3dp</dimen>
+
+    <!-- activity_crop_image.xml-->
+    <dimen name="aci_toolbar_height">64dp</dimen>
+    <dimen name="aci_toolbar_padding_lr">53dp</dimen>
+    <dimen name="aci_crop_layout_padding">27dp</dimen>
+
+    <dimen name="tab_layout_height">64dp</dimen>
+
+    <!-- 裁剪框的相关尺寸 -->
+    <!--裁剪框三种类型，裁剪 crop， 拆题 split，圈题 enclose-->
+    <dimen name="cw_crop_border_corner_thickness">4dp</dimen>
+    <dimen name="cw_crop_border_corner_len">27dp</dimen>
+
+
+    <integer name="ocr_guide_duration_per_frame">200</integer>
+
+    <!--edit_preview_hint_bg.xml-->
+    <dimen name="edit_preview_hint_corner">36dp</dimen>
+
+</resources>

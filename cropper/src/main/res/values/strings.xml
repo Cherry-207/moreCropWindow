@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cropper</string>
+    <string name="pick_image_intent_chooser_title">选择来源</string>
+
+</resources>
